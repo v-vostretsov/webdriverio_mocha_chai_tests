@@ -1,0 +1,23 @@
+{
+  "name": "testing-ground-automation-webdriverio-mocha-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wdio.conf.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5",
+    "selenium-standalone": "^6.15.1",
+    "wdio-allure-reporter": "^0.6.3",
+    "wdio-mocha-framework": "^0.6.2",
+    "wdio-selenium-standalone-service": "0.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
