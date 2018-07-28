@@ -24,7 +24,7 @@ describe("Login", function(){
 
     it("user should login with valid credentials through http request", async function(){
         let loginInfo = await loginPage.loginThroughHttp(username, password);
-        expect(loginInfo.code).to.equal(250, "http response didn't include 200 code");   
+        expect(loginInfo.code).to.equal(200, "http response didn't include 200 code");   
         expect(loginInfo.message).to.equal(message.welcomeMessage, "user was not logged in");     
     });
 
